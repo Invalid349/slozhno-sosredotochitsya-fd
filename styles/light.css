@@ -5,20 +5,20 @@
 */
 
 :root.theme-light {
-  --background-color:#ffeef6;
   --accent-color: #FF8DCB; /* тень */
   --color-no-focus: #FFC2E6;
   --background-image: url(../images/cover-image-light.png);
   --title-decor: #FF8DCB; /* фон */
   --title-decor-text: #353430;
   --color-highlight: #353430; /* навигация и заголовки */
+  --color-highlight-opacity: rgba(53, 52, 48, 0.4);
   --paragraph-color: #353430;
   --background-color: #fff1f7;
 }
 @media (prefers-color-scheme: light) {
   :root {
+  --color-highlight-opacity: rgba(53, 52, 48, 0.4);
   --background-color: #fff1f7;
-  --background-color:#ffeef6;
   --accent-color: #FF8DCB; /* тень */
   --color-no-focus: #FFC2E6;
   --background-image: url(../images/cover-image-light.png);

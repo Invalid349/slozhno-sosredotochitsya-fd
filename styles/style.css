@@ -109,7 +109,7 @@
   background-color: transparent;
 }
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--color-highlight);
+  outline: 1px solid var(--color-highlight-opacity);
 }
 .header__theme-menu-button_active {
   outline: 1px solid var(--color-highlight);
@@ -131,7 +131,13 @@
   margin-inline: var(--blocks-inline-margin);
   margin-block: 40px;
 }
+.content-text-title {
+  font-weight: 700;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+}
 .content-text {
+  font-weight:400;
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
 }

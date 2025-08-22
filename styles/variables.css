@@ -10,6 +10,7 @@
   --title-decor: #FF0070; /* фон */
   --title-decor-text: #000028;
   --color-highlight: #FF0070; /* навигация и заголовки */
+  --color-highlight-opacity: rgba(255, 0, 112, 0.4);
   --paragraph-color: #F1B2CE;
   --shadow: 4px 4px 0 var(--accent-color);
   --main-font-size: 18px;
